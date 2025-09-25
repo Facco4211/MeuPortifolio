@@ -48,18 +48,18 @@ header{
             }
         }
     }
-    .a ::after{
+    a::after{
         content: "";
-        background: brown;
+        background: #c5c5c5;
         height: 2px;
-        width: 104%;
+        width: 0;
         bottom: 0px;
         left: 0;
         position: absolute;
-        transition: 100ms;
+        transition: 300ms;
     }
-    .a:hover::after{
-        width: 0;
+    a:hover::after{
+    width: 100%;
     }
     .busca{
         display: flex;

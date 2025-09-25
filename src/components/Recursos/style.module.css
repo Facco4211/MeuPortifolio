@@ -1,21 +1,20 @@
 .secaoRecursos {
   padding: 40px 15px;
-  background: url(../../imagens/Wallpaper.png) no-repeat center center/cover ;
+  background: url(../../imagens/Group\ 9.gif) no-repeat center center/cover ;
   text-align: center;
 
 .secaoRecursos::after{
   content: '';
 }
 
-
   h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #ffffff;
+    color: #e8e8e8;
   }
 
   p {
-    color: #ffffff;
+    color: #878585;
     max-width: 600px;
     margin: 0 auto 20px;
     font-size: 15px;

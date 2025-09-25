@@ -18,9 +18,9 @@ export default function Header(){
                 <FaSearch size={20} color='#e7e7e7ff'/>
             </div> */}
             <nav className={style.menu}>
-                {/* <a href="#">Home</a>
+                <a href="#">Home</a>
                 <a href="#">Trabalhos</a>
-                <a href="#">Contato</a>  */}
+                <a href="#">Contato</a>  
                 <a href="#">GitHub</a>         
             </nav> 
             {/* <button  onClick={()=> setPesquisar(true)} className={style.searchIcon}> 
