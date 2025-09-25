@@ -1,0 +1,66 @@
+.secaoRecursos {
+  padding: 40px 15px;
+  background: url(../../imagens/Wallpaper.png) no-repeat center center/cover ;
+  text-align: center;
+
+.secaoRecursos::after{
+  content: '';
+}
+
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+
+  p {
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 15px;
+  }
+}
+
+.listaRecursos {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  margin: 0 auto;
+}
+
+.recurso {
+  background: #2a2a2a;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+}
+
+.icone {
+  font-size: 40px;
+  color: #3c94e7;
+  margin-bottom: 12px;
+}
+

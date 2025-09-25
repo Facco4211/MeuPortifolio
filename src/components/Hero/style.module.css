@@ -1,0 +1,62 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 90vh;
+  color: #ffffff;
+  text-align: left;
+  padding: 20px;
+
+
+
+  .conteudo {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+
+  .titulo {
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 15px;
+  }
+
+  .descricao {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .botao {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    transition:
+      background 0.3s,
+      transform 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background-color: #ececec;
+      color: black;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

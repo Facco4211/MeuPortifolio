@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS 1", sans-serif;
+}
+body{
+    background-color: #121212;
+}
+.parteCima{
+    background: url(./imagens/Group\ 9.gif) no-repeat center center/cover ;
+    position: initial;
+}
+#root {
+  background-color: #121212;
+}
