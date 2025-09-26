@@ -1,4 +1,4 @@
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { FaChevronRight, FaChevronLeft  } from "react-icons/fa";
 import style from './style.module.css';
 import Site1 from '../../imagens/SitesCarrosel/Template1.png';
 import Site2 from '../../imagens/SitesCarrosel/Template2.png';
@@ -6,6 +6,8 @@ import Site3 from '../../imagens/SitesCarrosel/Template3.png';
 import Site4 from '../../imagens/SitesCarrosel/Template4.png';
 import Site5 from '../../imagens/SitesCarrosel/Template5.png';
 import Site6 from '../../imagens/SitesCarrosel/Template6.png';
+import we from '../../imagens/Wallpaper.png';
+import asd from '../../imagens/Group 9.gif';
 import { useState } from "react";
 
 export default function Carrossel3() {
@@ -16,6 +18,8 @@ export default function Carrossel3() {
     { src: Site4, title: "Site 4", description: "Descrição do site 4..." },
     { src: Site5, title: "Site 5", description: "Descrição do site 5..." },
     { src: Site6, title: "Site 6", description: "Descrição do site 6..." },
+    { src: we, title: "site 7", description: "Descrição do site 6..." },
+    { src: asd, title: "site 7", description: "Descrição do site 6..." },
   ];
 
   const [indice, setIndice] = useState(0);
@@ -72,7 +76,7 @@ export default function Carrossel3() {
         onMouseLeave={handleMouseLeave}
       >
         <button onClick={imagemAnterior} className={style.seta}>
-          <FaArrowLeft size={40} />
+          <FaChevronLeft  size={40} />
         </button>
 
         <div className={style.container}>
@@ -89,8 +93,8 @@ export default function Carrossel3() {
                     offset === 0 ? 1 : 0.85
                   })`,
                   zIndex: offset === 0 ? 3 : 2,
-                  opacity: Math.abs(offset) > 2 ? 0 : 1,
-                  pointerEvents: Math.abs(offset) > 2 ? "none" : "auto",
+                  opacity: Math.abs(offset) > 1 ? 0 : 1,
+                  pointerEvents: Math.abs(offset) > 1 ? "none" : "auto",
                 }}
               >
                 <img src={item.src} alt={item.title} />
@@ -104,7 +108,7 @@ export default function Carrossel3() {
         </div>
 
         <button onClick={proximaImagem} className={style.seta}>
-          <FaArrowRight size={40} />
+          <FaChevronRight size={40} />
         </button>
       </div>
 
