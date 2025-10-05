@@ -8,8 +8,10 @@ body{
     background-color: #121212;
 }
 .parteCima{
-    /* background: url(./imagens/Group\ 9.gif) no-repeat center center/cover ; */
-        position: relative;
+    position: relative;
+}
+.descricao{
+    position: absolute;
 }
 #root {
   background-color: #121212;
@@ -20,7 +22,7 @@ body{
 
     &::-webkit-scrollbar-track {
         background: #1a1a1a; /* fundo do trilho */
-        border-radius: 10px;
+        border-radius: 0px;
     }
 
     &::-webkit-scrollbar-thumb {
