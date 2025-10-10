@@ -1,6 +1,6 @@
 .secaoRecursos {
   padding: 40px 15px;
-  background: url(../../imagens/Group\ 9.gif) no-repeat center center/cover ;
+  background: url(https://astrophotons.b-cdn.net/wp-content/uploads/2025/05/nebula-drift-4k-wallpaper.jpg) no-repeat center center/cover ;
   text-align: center;
 
 .secaoRecursos::after{
@@ -10,11 +10,11 @@
   h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #e8e8e8;
+    color: #3c94e7;
   }
 
   p {
-    color: #878585;
+    color: #3c94e7;
     max-width: 600px;
     margin: 0 auto 20px;
     font-size: 15px;

@@ -4,7 +4,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 16px 32px; 
-    z-index: 2;
+    z-index: 5;
     position: absolute;
     width: 100%;
     .titulo{
@@ -53,7 +53,7 @@ header{
     }
     a::after{
         content: "";
-        background: #c5c5c5;
+        background: #c5c5c5; 
         height: 2px;
         width: 0;
         bottom: 0px;

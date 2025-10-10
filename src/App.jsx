@@ -13,11 +13,11 @@ function App() {
     <>
       <div className="parteCima">
         <Header />
-          <Hero />
-            <div style={{ width: '100%', height: '600px', position:'relative'}}>
-        <DarkVeil />
+        <Hero />
 
-      </div>
+
+
+
 
       </div>
       <Carrossel3 />

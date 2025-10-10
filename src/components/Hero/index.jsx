@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './style.module.css';
+import DarkVeil from '../DarkVeil';
 
 export default function Hero() {
   return (
@@ -9,6 +10,7 @@ export default function Hero() {
         <p className={style.descricao}>Programador e Designer</p>
         <button className={style.botao}>Ver Mais</button>
       </div>
+      <DarkVeil  />
     </section>
   );
 }

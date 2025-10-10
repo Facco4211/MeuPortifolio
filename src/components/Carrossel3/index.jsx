@@ -7,7 +7,7 @@ import Site4 from '../../imagens/SitesCarrosel/Template4.png';
 import Site5 from '../../imagens/SitesCarrosel/Template5.png';
 import Site6 from '../../imagens/SitesCarrosel/Template6.png';
 import we from '../../imagens/Wallpaper.png';
-import asd from '../../imagens/Group 9.gif';
+import asd from '../../imagens/SitesCarrosel/Template4.png';
 import { useState } from "react";
 
 export default function Carrossel3() {
@@ -89,8 +89,8 @@ export default function Carrossel3() {
                 key={i}
                 className={style.card}
                 style={{
-                  transform: `translateX(${offset * 120}%) scale(${
-                    offset === 0 ? 1 : 0.85
+                  transform: `translateX(${offset * 50}%) scale(${
+                    offset === 0 ? 0.85 : 0.50
                   })`,
                   zIndex: offset === 0 ? 3 : 2,
                   opacity: Math.abs(offset) > 1 ? 0 : 1,
