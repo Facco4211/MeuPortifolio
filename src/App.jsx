@@ -14,14 +14,9 @@ function App() {
       <div className="parteCima">
         <Header />
         <Hero />
-
-
-
-
-
       </div>
-      <Carrossel3 />
-      <Recursos />
+      {/* <Carrossel3 />
+      <Recursos /> */}
       {/* <Categorias />
       <Ranking />  */}
       <Rodape />
