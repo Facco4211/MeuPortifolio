@@ -22,7 +22,7 @@ export default function Recursos() {
             <div className={style.texto}>
             <h3>UI</h3>
             <p>
-              Lorem ipsum dolor sit amet
+              Design de seu web site
             </p>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function Recursos() {
             <div className={style.texto}>
             <h3>Codigo</h3>
             <p>
-             Lorem ipsum dolor sit amet
+             Funcionalidade de seu web site
             </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function Recursos() {
             <div className={style.texto}>
             <h3>Banco De Dados</h3>
             <p>
-             Lorem ipsum dolor sit amet
+             Back end de seu web site
             </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Recursos() {
             <div className={style.texto}>
             <h3>Interação</h3>
             <p>
-             Lorem ipsum dolor sit amet
+            Um web site mais interativo
             </p>
             </div>
           </div>

@@ -1,11 +1,9 @@
 import "./App.css";
-import Categorias from "./components/Categorias";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Recursos from "./components/Recursos";
 import Rodape from "./components/Rodape";
-import DarkVeil from './components/DarkVeil';
-import Ranking from "./components/Ranking";
+import Ferramentas from "./components/Ferramentas";
 function App() {
   return (
     <>
@@ -13,11 +11,9 @@ function App() {
         <Header />
         <Hero />
       </div>
-      
       <Recursos />
-      {/* <Categorias />
-      <Ranking />  */}
-      {/* { <Rodape /> }  */}
+      <Ferramentas />
+      {/* <Rodape />  */}
     </>
   );
 }

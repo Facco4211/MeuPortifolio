@@ -3,6 +3,8 @@
   color: #fff;
   text-align: center;
   padding: 20px;
+  z-index: 2;
+  position: relative;
 
   .redesSociais {
     margin-bottom: 10px;
