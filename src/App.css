@@ -4,9 +4,6 @@
   box-sizing: border-box;
   font-family: "M PLUS 1", sans-serif;
 }
-body{
-    background-color: #121212;
-}
 .parteCima{
     position: relative;
 }
@@ -14,7 +11,7 @@ body{
     position: absolute;
 }
 #root {
-  background-color: #121212;
+  background-color: #000000;
 }
    /* &::-webkit-scrollbar {
         width: 8px;
